@@ -39,7 +39,7 @@ function App() {
 
   //file upload state
   const [fileUpload, setFileUpload] = useState(null);
-
+  //test
   const uploadFile = async () => {
     if (!fileUpload) return;
     const filesFolderRef = ref(storage, `projectFiles/${fileUpload.name}`);
